@@ -28,5 +28,5 @@ docker build -t gba-dev .
 Para compilar ejecutar el siguiente comando:
 
 ```bash
-docker run --rm -v $pwd:"src/gba" gba-dev
+docker run --rm -v $pwd:"src/gba" gba-dev #usar %CD% para windows
 ```
